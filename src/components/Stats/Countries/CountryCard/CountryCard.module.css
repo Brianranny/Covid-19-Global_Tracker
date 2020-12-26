@@ -1,0 +1,123 @@
+.CountryTitle {
+  font-size: 20px;
+}
+
+/* *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  } */
+/* .Card {
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+} */
+
+.Card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  color: #313d3e;
+  display: inline-block;
+  font-size: 14px;
+  padding: 18px;
+  /* margin: auto; */
+  text-align: center;
+  position: relative;
+  width: 350px;
+
+  /* background: white;
+  
+  display: inline-block;
+  margin: auto;
+  border-radius: border-radius-size + 5;
+  
+  
+  box-shadow: -1px 1px 20px -12px black;
+  z-index: 9999; */
+}
+
+.CardBody {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+/* .Mb2 {
+  margin-bottom: 0.5rem !important;
+} */
+
+.Avatar {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-weight: 400;
+  line-height: 1;
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.Img {
+  float: right !important;
+  border-radius: 50% !important;
+  vertical-align: top !important;
+  font-weight: 400;
+  line-height: 1;
+  max-width: 100%;
+  width: 3.5em;
+  height: 3.5em;
+}
+
+/* *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  } */
+
+.CountryNum {
+  font-size: 24px;
+  font-weight: 800;
+}
+.Dead {
+  font-size: 20px;
+}
+
+.Dead {
+  color: rgb(243, 0, 41);
+}
+
+.Cases {
+  color: #42f80b;
+}
+
+.Recover {
+  color: #32cd32;
+}
+
+.Critical {
+  color: #112327;
+}
+
+.New {
+  color: rgb(0, 113, 128);
+}
+
+.DeathPer {
+  color: rgb(172, 37, 165);
+}

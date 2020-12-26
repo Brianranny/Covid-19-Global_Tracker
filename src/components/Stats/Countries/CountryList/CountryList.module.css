@@ -1,0 +1,14 @@
+.Row {
+  /* grid-template-columns: 31% 31% 31%; */
+  max-width: 1240px;
+  display: -webkit-box;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  /* padding: 250px; 
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  max-width: 1200px;  */
+}
